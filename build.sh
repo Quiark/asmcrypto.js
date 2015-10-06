@@ -1,2 +1,2 @@
 #!/bin/sh
-cat src/errors.js src/utils.js src/origin.js src/exports.js src/globals.js src/aes/aes.asm.js src/aes/aes.js src/aes/ecb/ecb.js src/aes/ecb/exports.js src/aes/cbc/cbc.js src/aes/exports.js  src/aes/cbc/exports.js > asmcrypto.js
+cat src/errors.js src/utils.js src/origin.js src/exports.js src/globals.js src/aes/aes.asm.js src/aes/aes.js src/aes/ecb/ecb.js src/aes/ecb/exports.js src/aes/cbc/cbc.js src/aes/exports.js  src/aes/cbc/exports.js src/hash/hash.js src/hash/sha256/sha256.asm.js src/hash/sha256/sha256.js src/hash/sha256/exports.js src/hmac/hmac.js src/hmac/hmac-sha256.js src/hmac/exports-hmac-sha256.js src/pbkdf2/pbkdf2.js src/pbkdf2/pbkdf2-hmac-sha256.js src/pbkdf2/exports-pbkdf2-hmac-sha256.js > asmcrypto.js
